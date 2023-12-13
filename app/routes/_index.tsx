@@ -24,7 +24,7 @@ export default function Index() {
       <div className="w-80 h-full mx-auto flex flex-col">
         <div className="flex justify-between items-center my-4">
           <h2 className="text-xl text-gray-700 dark:text-white font-extrabold">
-            memsnap.co
+            memsnap
           </h2>
           <Toggle onChange={handleConfigure} isChecked={isBuilding} />
         </div>
