@@ -7,4 +7,11 @@ describe("Button", () => {
     const { container } = render(<Button variant="primary">Click Me!</Button>);
     expect(container).toMatchSnapshot();
   });
+
+  it("renders a secondary button correctly", () => {
+    const { container } = render(
+      <Button variant="secondary">Click Me!</Button>
+    );
+    expect(container).toMatchSnapshot();
+  });
 });
