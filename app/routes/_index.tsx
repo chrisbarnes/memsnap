@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FlashCards } from "~/components/FlashCards/FlashCards";
 import { SetBuilder } from "~/components/SetBuilder/SetBuilder";
 import { CardSetProvider } from "~/context/CardSetContext";
-import { Toggle } from "~/components/Toggle/Toggle";
+import { Toggle } from "~/components/Inputs/Toggle/Toggle";
 import type { MetaFunction } from "@remix-run/node";
 import type { ChangeEvent } from "react";
 
