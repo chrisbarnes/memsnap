@@ -13,8 +13,11 @@ export const FlashCard = ({
     >
       <section
         className={`group-[.flip]:[transform:rotateY(180deg)] absolute left-0 w-full p-12 text-right transition-all duration-200 [transform-style:preserve-3d] [backface-visibility:hidden] rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700`}
+        data-testid="question"
       >
-        <div className="leading-[112px]">{sideA.x}</div>
+        <div className="leading-[112px]" data-testid="side-a-x">
+          {sideA.x}
+        </div>
         <span className="absolute left-12 top-52 text-6xl pb-4">
           {sideA.operand}
         </span>
@@ -24,6 +27,7 @@ export const FlashCard = ({
       </section>
       <section
         className={`group-[.flip]:[transform:rotateY(0deg)] absolute left-0 w-full p-12 text-center flex flex-col justify-center [backface-visibility:hidden] [transform:rotateY(-180deg)] [transform-style:preserve-3d] transition-all duration-200 rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700`}
+        data-testid="answer"
       >
         {sideB}
       </section>

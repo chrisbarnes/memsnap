@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlashCard should render properly 1`] = `
+<div>
+  <div
+    class="group  relative w-80 h-[440px] mb-2 text-9xl text-gray-900 dark:text-white font-extrabold overflow-hidden [perspective-1000px]"
+  >
+    <section
+      class="group-[.flip]:[transform:rotateY(180deg)] absolute left-0 w-full p-12 text-right transition-all duration-200 [transform-style:preserve-3d] [backface-visibility:hidden] rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+      data-testid="question"
+    >
+      <div
+        class="leading-[112px]"
+        data-testid="side-a-x"
+      >
+        1
+      </div>
+      <span
+        class="absolute left-12 top-52 text-6xl pb-4"
+      >
+        +
+      </span>
+      <div
+        class="leading-[112px] pb-4 border-b-8 border-black dark:border-white"
+      >
+        2
+      </div>
+    </section>
+    <section
+      class="group-[.flip]:[transform:rotateY(0deg)] absolute left-0 w-full p-12 text-center flex flex-col justify-center [backface-visibility:hidden] [transform:rotateY(-180deg)] [transform-style:preserve-3d] transition-all duration-200 rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+      data-testid="answer"
+    >
+      3
+    </section>
+  </div>
+</div>
+`;
+
+exports[`FlashCard should render the answer 1`] = `
+<div>
+  <div
+    class="group flip relative w-80 h-[440px] mb-2 text-9xl text-gray-900 dark:text-white font-extrabold overflow-hidden [perspective-1000px]"
+  >
+    <section
+      class="group-[.flip]:[transform:rotateY(180deg)] absolute left-0 w-full p-12 text-right transition-all duration-200 [transform-style:preserve-3d] [backface-visibility:hidden] rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+      data-testid="question"
+    >
+      <div
+        class="leading-[112px]"
+        data-testid="side-a-x"
+      >
+        1
+      </div>
+      <span
+        class="absolute left-12 top-52 text-6xl pb-4"
+      >
+        +
+      </span>
+      <div
+        class="leading-[112px] pb-4 border-b-8 border-black dark:border-white"
+      >
+        2
+      </div>
+    </section>
+    <section
+      class="group-[.flip]:[transform:rotateY(0deg)] absolute left-0 w-full p-12 text-center flex flex-col justify-center [backface-visibility:hidden] [transform:rotateY(-180deg)] [transform-style:preserve-3d] transition-all duration-200 rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+      data-testid="answer"
+    >
+      3
+    </section>
+  </div>
+</div>
+`;

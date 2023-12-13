@@ -81,13 +81,18 @@ export const FlashCards = () => {
     <React.Fragment>
       {!isDone && (
         <div className="flex flex-col">
-          <p className="mx-4 text-sm text-slate-500 text-right mb-2">
+          <p
+            className="mx-4 text-sm text-slate-500 text-right mb-2"
+            data-testid="card-set-status"
+          >
             {cardIndex + 1}/{renderedCards.length}
           </p>
-          <FlashCard
-            {...renderedCards[cardIndex]}
-            displayAnswer={displayAnswer}
-          />
+          {renderedCards[cardIndex] && (
+            <FlashCard
+              {...renderedCards[cardIndex]}
+              displayAnswer={displayAnswer}
+            />
+          )}
           <FlashCardControls
             onPrevious={previous}
             onNext={next}
@@ -100,7 +105,12 @@ export const FlashCards = () => {
         </div>
       )}
       {isDone && (
-        <p className="text-5xl text-gray-900 dark:text-white">Done!</p>
+        <p
+          className="text-5xl text-gray-900 dark:text-white"
+          data-testid="done"
+        >
+          Done!
+        </p>
       )}
     </React.Fragment>
   );

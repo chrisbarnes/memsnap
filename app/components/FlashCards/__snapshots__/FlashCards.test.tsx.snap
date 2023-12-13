@@ -1,0 +1,469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlashCards should render and have button functionality 1`] = `
+<div>
+  <div
+    class="flex flex-col"
+  >
+    <p
+      class="mx-4 text-sm text-slate-500 text-right mb-2"
+      data-testid="card-set-status"
+    >
+      1
+      /
+      2
+    </p>
+    <div
+      class="group  relative w-80 h-[440px] mb-2 text-9xl text-gray-900 dark:text-white font-extrabold overflow-hidden [perspective-1000px]"
+    >
+      <section
+        class="group-[.flip]:[transform:rotateY(180deg)] absolute left-0 w-full p-12 text-right transition-all duration-200 [transform-style:preserve-3d] [backface-visibility:hidden] rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+        data-testid="question"
+      >
+        <div
+          class="leading-[112px]"
+          data-testid="side-a-x"
+        >
+          1
+        </div>
+        <span
+          class="absolute left-12 top-52 text-6xl pb-4"
+        >
+          +
+        </span>
+        <div
+          class="leading-[112px] pb-4 border-b-8 border-black dark:border-white"
+        >
+          2
+        </div>
+      </section>
+      <section
+        class="group-[.flip]:[transform:rotateY(0deg)] absolute left-0 w-full p-12 text-center flex flex-col justify-center [backface-visibility:hidden] [transform:rotateY(-180deg)] [transform-style:preserve-3d] transition-all duration-200 rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+        data-testid="answer"
+      >
+        3
+      </section>
+    </div>
+    <div
+      class="inline-flex justify-center mb-2 rounded-md shadow-sm"
+    >
+      <button
+        class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 rounded-s-lg hover:bg-gray-100 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="previous-button"
+        type="button"
+      >
+        Previous
+      </button>
+      <button
+        class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="show-answer-button"
+        type="button"
+      >
+        Show Answer
+      </button>
+      <button
+        class="min-w-[91px] px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-e-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="next-button"
+        type="button"
+      >
+        Next
+      </button>
+    </div>
+    <p
+      class="mx-4 mb-2 text-sm dark:text-white"
+    >
+      Use the left and right arrow keys to go forward and back through the cards. Press up or down to flip the card.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`FlashCards should render and have button functionality 2`] = `
+<div>
+  <div
+    class="flex flex-col"
+  >
+    <p
+      class="mx-4 text-sm text-slate-500 text-right mb-2"
+      data-testid="card-set-status"
+    >
+      1
+      /
+      2
+    </p>
+    <div
+      class="group flip relative w-80 h-[440px] mb-2 text-9xl text-gray-900 dark:text-white font-extrabold overflow-hidden [perspective-1000px]"
+    >
+      <section
+        class="group-[.flip]:[transform:rotateY(180deg)] absolute left-0 w-full p-12 text-right transition-all duration-200 [transform-style:preserve-3d] [backface-visibility:hidden] rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+        data-testid="question"
+      >
+        <div
+          class="leading-[112px]"
+          data-testid="side-a-x"
+        >
+          1
+        </div>
+        <span
+          class="absolute left-12 top-52 text-6xl pb-4"
+        >
+          +
+        </span>
+        <div
+          class="leading-[112px] pb-4 border-b-8 border-black dark:border-white"
+        >
+          2
+        </div>
+      </section>
+      <section
+        class="group-[.flip]:[transform:rotateY(0deg)] absolute left-0 w-full p-12 text-center flex flex-col justify-center [backface-visibility:hidden] [transform:rotateY(-180deg)] [transform-style:preserve-3d] transition-all duration-200 rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+        data-testid="answer"
+      >
+        3
+      </section>
+    </div>
+    <div
+      class="inline-flex justify-center mb-2 rounded-md shadow-sm"
+    >
+      <button
+        class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 rounded-s-lg hover:bg-gray-100 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="previous-button"
+        type="button"
+      >
+        Previous
+      </button>
+      <button
+        class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="show-answer-button"
+        type="button"
+      >
+        Show Answer
+      </button>
+      <button
+        class="min-w-[91px] px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-e-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="next-button"
+        type="button"
+      >
+        Next
+      </button>
+    </div>
+    <p
+      class="mx-4 mb-2 text-sm dark:text-white"
+    >
+      Use the left and right arrow keys to go forward and back through the cards. Press up or down to flip the card.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`FlashCards should render and have button functionality 3`] = `
+<div>
+  <div
+    class="flex flex-col"
+  >
+    <p
+      class="mx-4 text-sm text-slate-500 text-right mb-2"
+      data-testid="card-set-status"
+    >
+      1
+      /
+      2
+    </p>
+    <div
+      class="group  relative w-80 h-[440px] mb-2 text-9xl text-gray-900 dark:text-white font-extrabold overflow-hidden [perspective-1000px]"
+    >
+      <section
+        class="group-[.flip]:[transform:rotateY(180deg)] absolute left-0 w-full p-12 text-right transition-all duration-200 [transform-style:preserve-3d] [backface-visibility:hidden] rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+        data-testid="question"
+      >
+        <div
+          class="leading-[112px]"
+          data-testid="side-a-x"
+        >
+          1
+        </div>
+        <span
+          class="absolute left-12 top-52 text-6xl pb-4"
+        >
+          +
+        </span>
+        <div
+          class="leading-[112px] pb-4 border-b-8 border-black dark:border-white"
+        >
+          2
+        </div>
+      </section>
+      <section
+        class="group-[.flip]:[transform:rotateY(0deg)] absolute left-0 w-full p-12 text-center flex flex-col justify-center [backface-visibility:hidden] [transform:rotateY(-180deg)] [transform-style:preserve-3d] transition-all duration-200 rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+        data-testid="answer"
+      >
+        3
+      </section>
+    </div>
+    <div
+      class="inline-flex justify-center mb-2 rounded-md shadow-sm"
+    >
+      <button
+        class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 rounded-s-lg hover:bg-gray-100 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="previous-button"
+        type="button"
+      >
+        Previous
+      </button>
+      <button
+        class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="show-answer-button"
+        type="button"
+      >
+        Show Answer
+      </button>
+      <button
+        class="min-w-[91px] px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-e-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="next-button"
+        type="button"
+      >
+        Next
+      </button>
+    </div>
+    <p
+      class="mx-4 mb-2 text-sm dark:text-white"
+    >
+      Use the left and right arrow keys to go forward and back through the cards. Press up or down to flip the card.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`FlashCards should render and have keyboard functionality 1`] = `
+<div>
+  <div
+    class="flex flex-col"
+  >
+    <p
+      class="mx-4 text-sm text-slate-500 text-right mb-2"
+      data-testid="card-set-status"
+    >
+      1
+      /
+      2
+    </p>
+    <div
+      class="group  relative w-80 h-[440px] mb-2 text-9xl text-gray-900 dark:text-white font-extrabold overflow-hidden [perspective-1000px]"
+    >
+      <section
+        class="group-[.flip]:[transform:rotateY(180deg)] absolute left-0 w-full p-12 text-right transition-all duration-200 [transform-style:preserve-3d] [backface-visibility:hidden] rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+        data-testid="question"
+      >
+        <div
+          class="leading-[112px]"
+          data-testid="side-a-x"
+        >
+          1
+        </div>
+        <span
+          class="absolute left-12 top-52 text-6xl pb-4"
+        >
+          +
+        </span>
+        <div
+          class="leading-[112px] pb-4 border-b-8 border-black dark:border-white"
+        >
+          2
+        </div>
+      </section>
+      <section
+        class="group-[.flip]:[transform:rotateY(0deg)] absolute left-0 w-full p-12 text-center flex flex-col justify-center [backface-visibility:hidden] [transform:rotateY(-180deg)] [transform-style:preserve-3d] transition-all duration-200 rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+        data-testid="answer"
+      >
+        3
+      </section>
+    </div>
+    <div
+      class="inline-flex justify-center mb-2 rounded-md shadow-sm"
+    >
+      <button
+        class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 rounded-s-lg hover:bg-gray-100 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="previous-button"
+        type="button"
+      >
+        Previous
+      </button>
+      <button
+        class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="show-answer-button"
+        type="button"
+      >
+        Show Answer
+      </button>
+      <button
+        class="min-w-[91px] px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-e-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="next-button"
+        type="button"
+      >
+        Next
+      </button>
+    </div>
+    <p
+      class="mx-4 mb-2 text-sm dark:text-white"
+    >
+      Use the left and right arrow keys to go forward and back through the cards. Press up or down to flip the card.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`FlashCards should render and have keyboard functionality 2`] = `
+<div>
+  <div
+    class="flex flex-col"
+  >
+    <p
+      class="mx-4 text-sm text-slate-500 text-right mb-2"
+      data-testid="card-set-status"
+    >
+      1
+      /
+      2
+    </p>
+    <div
+      class="group flip relative w-80 h-[440px] mb-2 text-9xl text-gray-900 dark:text-white font-extrabold overflow-hidden [perspective-1000px]"
+    >
+      <section
+        class="group-[.flip]:[transform:rotateY(180deg)] absolute left-0 w-full p-12 text-right transition-all duration-200 [transform-style:preserve-3d] [backface-visibility:hidden] rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+        data-testid="question"
+      >
+        <div
+          class="leading-[112px]"
+          data-testid="side-a-x"
+        >
+          1
+        </div>
+        <span
+          class="absolute left-12 top-52 text-6xl pb-4"
+        >
+          +
+        </span>
+        <div
+          class="leading-[112px] pb-4 border-b-8 border-black dark:border-white"
+        >
+          2
+        </div>
+      </section>
+      <section
+        class="group-[.flip]:[transform:rotateY(0deg)] absolute left-0 w-full p-12 text-center flex flex-col justify-center [backface-visibility:hidden] [transform:rotateY(-180deg)] [transform-style:preserve-3d] transition-all duration-200 rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+        data-testid="answer"
+      >
+        3
+      </section>
+    </div>
+    <div
+      class="inline-flex justify-center mb-2 rounded-md shadow-sm"
+    >
+      <button
+        class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 rounded-s-lg hover:bg-gray-100 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="previous-button"
+        type="button"
+      >
+        Previous
+      </button>
+      <button
+        class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="show-answer-button"
+        type="button"
+      >
+        Show Answer
+      </button>
+      <button
+        class="min-w-[91px] px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-e-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="next-button"
+        type="button"
+      >
+        Next
+      </button>
+    </div>
+    <p
+      class="mx-4 mb-2 text-sm dark:text-white"
+    >
+      Use the left and right arrow keys to go forward and back through the cards. Press up or down to flip the card.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`FlashCards should render and have keyboard functionality 3`] = `
+<div>
+  <div
+    class="flex flex-col"
+  >
+    <p
+      class="mx-4 text-sm text-slate-500 text-right mb-2"
+      data-testid="card-set-status"
+    >
+      1
+      /
+      2
+    </p>
+    <div
+      class="group  relative w-80 h-[440px] mb-2 text-9xl text-gray-900 dark:text-white font-extrabold overflow-hidden [perspective-1000px]"
+    >
+      <section
+        class="group-[.flip]:[transform:rotateY(180deg)] absolute left-0 w-full p-12 text-right transition-all duration-200 [transform-style:preserve-3d] [backface-visibility:hidden] rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+        data-testid="question"
+      >
+        <div
+          class="leading-[112px]"
+          data-testid="side-a-x"
+        >
+          1
+        </div>
+        <span
+          class="absolute left-12 top-52 text-6xl pb-4"
+        >
+          +
+        </span>
+        <div
+          class="leading-[112px] pb-4 border-b-8 border-black dark:border-white"
+        >
+          2
+        </div>
+      </section>
+      <section
+        class="group-[.flip]:[transform:rotateY(0deg)] absolute left-0 w-full p-12 text-center flex flex-col justify-center [backface-visibility:hidden] [transform:rotateY(-180deg)] [transform-style:preserve-3d] transition-all duration-200 rounded shadow-lg border-[1px] border-gray-100 dark:border-gray-950 h-[440px] dark:bg-gray-700"
+        data-testid="answer"
+      >
+        3
+      </section>
+    </div>
+    <div
+      class="inline-flex justify-center mb-2 rounded-md shadow-sm"
+    >
+      <button
+        class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 rounded-s-lg hover:bg-gray-100 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="previous-button"
+        type="button"
+      >
+        Previous
+      </button>
+      <button
+        class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="show-answer-button"
+        type="button"
+      >
+        Show Answer
+      </button>
+      <button
+        class="min-w-[91px] px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-e-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+        data-testid="next-button"
+        type="button"
+      >
+        Next
+      </button>
+    </div>
+    <p
+      class="mx-4 mb-2 text-sm dark:text-white"
+    >
+      Use the left and right arrow keys to go forward and back through the cards. Press up or down to flip the card.
+    </p>
+  </div>
+</div>
+`;
